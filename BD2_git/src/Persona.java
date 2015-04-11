@@ -5,6 +5,7 @@ public class Persona {
 		System.out.println("hola manu");
 			System.out.println("anda?");
 			System.out.println("una mierdaaae");
+			System.out.println("anda siii!");
 	}
 
 }
