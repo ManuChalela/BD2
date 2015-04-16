@@ -11,7 +11,7 @@ public class main2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("PracticoJPA"); 
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("BD2_git"); 
 		EntityManager em = emf.createEntityManager();
 		
 		List<Seleccion> selecciones = new ArrayList<Seleccion>();

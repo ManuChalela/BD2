@@ -9,7 +9,8 @@ import javax.persistence.Query;
 public class main {
 
 	public static void crearDatos(){
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("BD2_git"); 
+		//EntityManagerFactory emf = Persistence.createEntityManagerFactory("BD2_git");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("BD2_git");
 		EntityManager em = emf.createEntityManager();
 		
 		List<Seleccion> selecciones = new ArrayList<Seleccion>();
